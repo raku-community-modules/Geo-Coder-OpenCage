@@ -1,27 +1,29 @@
 {
-    "perl"        : "6.*",
-    "name"        : "Geo::Coder::OpenCage",
-    "version"     : "1.0",
-    "description" : "Client library for the OpenCage Geocoder",
-    "test-depends" : [
-        "Test"
-    ],
-    "depends" : [
-        "HTTP::UserAgent",
-        "JSON::Unmarshal",
-        "URI"
-    ],
-    "provides" : {
-        "Geo::Coder::OpenCage" : "lib/Geo/Coder/OpenCage.pm",
-        "Geo::Coder::OpenCage::Response"
-            : "lib/Geo/Coder/OpenCage/Response.pm"
-    },
-    "authors" : [
-        "Tadeusz “tadzik” Sośnierz"
-    ],
-    "support" : {
-        "bugtracker" : "https://github.com/tadzik/Geo-Coder-OpenCage/issues",
-        "source" : "git://github.com/tadzik/Geo-Coder-OpenCage.git"
-    },
-    "source-url"  : "git://github.com/tadzik/Geo-Coder-OpenCage.git"
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Tadeusz Sośnierz"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "HTTP::UserAgent",
+    "JSON::Unmarshal",
+    "URI"
+  ],
+  "description": "Geocode addresses with the OpenCage Geocoder API",
+  "license": "NOASSERTION",
+  "name": "Geo::Coder::OpenCage",
+  "perl": "6.*",
+  "provides": {
+    "Geo::Coder::OpenCage": "lib/Geo/Coder/OpenCage.rakumod",
+    "Geo::Coder::OpenCage::Response": "lib/Geo/Coder/OpenCage/Response.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/Geo-Coder-OpenCage.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "1.0"
 }

@@ -12,11 +12,14 @@ For full details on the API visit L<https://opencagedata.com>.
 
 =head1 SYNOPSIS
 
-    my $geocoder = Geo::Coder::OpenCage.new: api_key => $my_api_key;
-    my $result = $geocoder.geocode("Donostia");
+=begin code :lang<raku>
+
+my $geocoder = Geo::Coder::OpenCage.new: api_key => $my_api_key;
+my $result = $geocoder.geocode("Donostia");
+
+=end code
 
 =end pod
-
 
 #| That's the object you'll use to interface with the OpenCage API.
 #|
@@ -89,13 +92,16 @@ method reverse-geocode(Numeric $lat, Numeric $lng, *%params)
 
 =head1 AUTHOR
 
-Tadeusz Sośnierz, C<tadeusz.sosnierz@onet.pl>
+Tadeusz Sośnierz
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2016 Tadeusz „tadzik” Sośnierz
+Copyright 2016 - 2017 Tadeusz Sośnierz
 
-This project is licensed under the MIT license – see the LICENSE file
-for details.
+Copyright 2024 Raku Community
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
+
+# vim: expandtab shiftwidth=4

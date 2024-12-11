@@ -12,3 +12,5 @@ if $response.status.ok {
                $place.formatted, $place.geometry.lat, $place.geometry.lng
     }
 }
+
+# vim: expandtab shiftwidth=4

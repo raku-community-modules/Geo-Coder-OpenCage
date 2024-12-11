@@ -1,4 +1,3 @@
-use v6;
 use Test;
 use Geo::Coder::OpenCage;
 
@@ -11,3 +10,5 @@ lives-ok {
 
 dies-ok { Geo::Coder::OpenCage.new; },
         'exception thrown when no api key passed to new()';
+
+# vim: expandtab shiftwidth=4
